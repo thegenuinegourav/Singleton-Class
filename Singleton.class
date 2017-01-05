@@ -10,7 +10,7 @@ public class MyClass {
         return myObject;
     }
 
-    public destroy()
+    public void destroy()
     {
     	this.myObject = null
     }
