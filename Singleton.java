@@ -2,15 +2,14 @@ public class MyClass {
     private static MyClass myObject;
 
     public static MyClass getInstance() {
-        synchronized (myObject)  { // if you'll be using it in moe then one thread
-            if(myObject == null)
-                myObject = new MyClass();
-        }
-
+    
+        if(myObject == null)
+            myObject = new MyClass();
+        
         return myObject;
     }
 
-    public void destroy()
+    public destroy()
     {
     	this.myObject = null
     }
