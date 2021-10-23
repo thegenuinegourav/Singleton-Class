@@ -6,3 +6,4 @@ Singleton Model now available in following languages:
 - Go
 - Python
 - C++
+- Ruby
