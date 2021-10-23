@@ -5,4 +5,5 @@ Singleton Model now available in following languages:
 - Java
 - Go
 - Python
+- C++
 - Ruby
